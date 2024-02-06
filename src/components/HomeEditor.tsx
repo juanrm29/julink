@@ -19,14 +19,6 @@ const HomeEditor = () => {
     <Background/>
     <div className='grid grid-cols-2 md:grid-cols-4 gap-2 justify-center items-center w-full mb-20'>
     <Publish />
-    <DemoBtn/>
-    <Link
-              target='_blank'
-              href="https://mdtaquijhar.gumroad.com/l/mernproject"
-              className={buttonVariants()}>
-              <ShoppingCart className='mr-2 h-4 w-4' />
-              Get Project
-            </Link>
             <Link
               target='_blank'
               href="https://bitly.com"
