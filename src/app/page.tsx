@@ -4,10 +4,9 @@ import Link from "next/link";
 
 
 export const siteConfig = {
-  name: "itZmyLink - one page, many links.",
-  description: "itZmyLink help you to Create a personalized page to showcase all your social media profiles in one place.",
-  ogImage: "https://itzmylink.vercel.app/og-image.png",
-  url: "https://itzmylink.vercel.app",
+  name: "Julink - one page, many links.",
+  description: "Julink help you to Create a personalized page to showcase all your social media profiles in one place.",
+  url: "https://julink.vercel.app/",
 }
 export default function Home() {
   return (

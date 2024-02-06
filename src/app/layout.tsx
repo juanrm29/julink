@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Original source: https://github.com/sadmann7/skateshop/blob/main/src/app/layout.tsx
 export const metadata: Metadata = {
-  metadataBase: new URL("https://itzmylink.vercel.app"),
+  metadataBase: new URL("https://julink.vercel.app/"),
   title: {
     default: siteConfig.name,
-    template: `%s - itZmyLink`,
+    template: `%s - Julink`,
   },
   description: siteConfig.description,
  
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "juan",
+      url: "https://github.com/juanrm29",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Juan Maulana",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -61,7 +61,6 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
   },
   icons: {
     icon: "/favicon.ico",
